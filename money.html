@@ -133,7 +133,7 @@ function animate(){
 	setTimeout("animate()",10);
 }
 animate();
-window.onclick=function() { if (document.getElementById) {
+window.onload=function() { if (document.getElementById) {
 	var i, rats, rlef, rdow;
 	for (var i=0; i<sparkles; i++) {
 		var rats=createDiv(3, 3);
